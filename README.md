@@ -40,4 +40,4 @@ SOLUTION: please sign into ngrock.com and go to https://dashboard.ngrok.com/tunn
 See ngrock documentation for more information about agents
 - The included programs have only been tested with FTB infinity evolved, with craftos 1.75 and computercraft version 1.75. If you find any incompatibilities please feel free to open an issue. 
 - Please report any issues to me
-- A reminder that this has not been tested with linux. No asurences are made for compatability. Try at your own risk
+- A reminder that this has not been tested with linux. No assurances are made for compatability. Try at your own risk
