@@ -1,4 +1,4 @@
-# A file server for use with computercraft
+# A file server for use with computercraft scripting
 Easily fetch all your scripts on any computercraft computer quickly and effectively!
 This is not the source code, but a copy of the program and its dependencies for convienient instalation
 (only windows is supported)
@@ -20,7 +20,7 @@ OR
 The console will spil out some logs until it is ready. It will take a few secconds at least.rtant. 
 
 4. Look for the line in the console output that looks *like* this       ```load the api with in cc lua with:       load(http.get('https://3457-119-18-1-211.ngrok-free.app/file/get_one?filePath=load.lua').readAll()) ('--verbose-logs,','--url=https://3457-119-18-1-211.ngrok-free.app') ```
-It will be different every time you start it. Copy all the text from `load`... to ...`')`
+It will be different every time you start it. Copy all the text from `load('https`... to ...`')`
 5. Start a computercraft computer with an internet connection. type `lua` and hit enter. Then paste in the line you just copied. Hit enter again.
 The computer will download all your files from inside of `.\luaFiles`. Now while the server is on, you can change any file inside of the luaFiles folder and type `load.lua` <Enter> to downlaod the latest version of the files.
 6. To stop the server, click on the console and press control+C. This will stop the server gracefully. If you do not follow this step, you will need to fix it next time you run.
